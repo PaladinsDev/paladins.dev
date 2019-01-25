@@ -1,37 +1,44 @@
-## Welcome to GitHub Pages
+# Welcome
+Welcome to PaladinsDev.com. This site is built as a resource for creating and sharing tools, packages, and documentation for [Paladins](https://www.paladins.com/). The goal is to be a central and maintained source for all things Paladins.
 
-You can use the [editor on GitHub](https://github.com/PaladinsDev/paladinsdev.github.io/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
+# Packages, Tools, & Resources
+## Stable
+*No packages considered fully stable...yet.*
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+## Testing / Beta
+### PHP / Packagist
+**PHP-API - [GitHub](https://github.com/PaladinsDev/PHP-API) / [Packagist](https://packagist.org/packages/paladinsdev/php-api)**
+*Maintained by [MatthewSH](https://github.com/MatthewSH)*
+*License - Apache License 2.0*
+Built originally for [Paladins Ninja](https://paladins.ninja) with inspiration some of TeamReflex's setup, this package was created for Laravel/Paladins Ninja internal usage then broken out into a PaladinsDev package shortly about a month after PaladinsDev was created. It does not include tests nor should it be considered fully functional as it's, currently, tightly coupled with Laravel's Illuminate Cache.
 
-### Markdown
+## In Development
+*In development also includes packages outside of PaladinsDev organization*
+[PaladinsGo by danieljimenez](https://github.com/danieljimenez/PaladinsGo)
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+## Honorable Mentions
+*These are packages created but may no longer be maintained or are not considered part of the PaladinsDev organization for one reason or another, however for transparency we'll also include them here.*
 
-```markdown
-Syntax highlighted code block
+[PaladinsPHP by TeamReflex](https://github.com/teamreflex/PaladinsPHP)
+[Hirez.js by messyfresh](https://www.npmjs.com/package/hirez.js)
+[Paladins-API by barenddt](https://www.npmjs.com/package/paladins-api)
+[Hirez-API by rivx](https://www.npmjs.com/package/hirez-api)
 
-# Header 1
-## Header 2
-### Header 3
+## Submit
+### Why would I want to do this?
+Like previously stated, our goal is to be a secure, maintained, and central source for all people using different languages to get packages and tools from that can help them create prototypes or develop their own products faster. If you're looking to be a part of that crew, then submit your tools or package.
 
-- Bulleted
-- List
+### What can be submitted?
+Basically anything. We're not locking down to a single idea. Got a good repository with example projects? Cool! You have a starter application/template? Awesome! Got a way for developers to test and view data with ease while they're developing a project? Send it on over!
 
-1. Numbered
-2. List
+### What does this mean?
+When you see a package by other developers either forked over to or created as PaladinsDev, that means they're considered active and have a level of detail considered acceptable. 
 
-**Bold** and _Italic_ and `Code` text
+### When it gets approved, what happens?
+This process is still being worked out; but pretty much...once we talk about the source code, maintaining it, code coverage, etc. the we'll either create a repository for you to push your source code (preferred) or we'll fork it and give you write access to the repository (this method preferred if you have a commit history you'd like to maintain).
 
-[Link](url) and ![Image](src)
-```
+### How do I submit my package/tool/resource? 
+Just send an email to submit@paladinsdev.com and someone will get back to you as soon as possible.
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/PaladinsDev/paladinsdev.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+# Issues / Security
+If you have an issue or a bug, please open an issue on the corresponding repository. If you've found a vulnerability or other security issue please email security@halfpetal.com immediately.
