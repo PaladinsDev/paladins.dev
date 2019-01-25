@@ -1,6 +1,11 @@
 # Welcome
 Welcome to PaladinsDev.com. This site is built as a resource for creating and sharing tools, packages, and documentation for [Paladins](https://www.paladins.com/). The goal is to be a central and maintained source for all things Paladins.
 
+The GitHub organization can be found [here](https://github.com/PaladinsDev). You can also join the Hi-Rez developer Discord [here](https://discord.gg/52Vz34W)
+
+# Obtaining API Key
+Please [submit an appliction](https://fs12.formsite.com/HiRez/form48/secure_index.html) to gain access to the Hi-Rez API.
+
 # Packages, Tools, & Resources
 ## Stable
 *No packages considered fully stable...yet.*
