@@ -8,20 +8,29 @@ Welcome to PaladinsDev.com. This site is built as a resource for creating and sh
 ## Testing / Beta
 ### PHP / Packagist
 **PHP-API - [GitHub](https://github.com/PaladinsDev/PHP-API) / [Packagist](https://packagist.org/packages/paladinsdev/php-api)**
+
 *Maintained by [MatthewSH](https://github.com/MatthewSH)*
+
 *License - Apache License 2.0*
+
 Built originally for [Paladins Ninja](https://paladins.ninja) with inspiration some of TeamReflex's setup, this package was created for Laravel/Paladins Ninja internal usage then broken out into a PaladinsDev package shortly about a month after PaladinsDev was created. It does not include tests nor should it be considered fully functional as it's, currently, tightly coupled with Laravel's Illuminate Cache.
 
 ## In Development
 *In development also includes packages outside of PaladinsDev organization*
+
+
 [PaladinsGo by danieljimenez](https://github.com/danieljimenez/PaladinsGo)
 
 ## Honorable Mentions
 *These are packages created but may no longer be maintained or are not considered part of the PaladinsDev organization for one reason or another, however for transparency we'll also include them here.*
 
+
 [PaladinsPHP by TeamReflex](https://github.com/teamreflex/PaladinsPHP)
+
 [Hirez.js by messyfresh](https://www.npmjs.com/package/hirez.js)
+
 [Paladins-API by barenddt](https://www.npmjs.com/package/paladins-api)
+
 [Hirez-API by rivx](https://www.npmjs.com/package/hirez-api)
 
 ## Submit
