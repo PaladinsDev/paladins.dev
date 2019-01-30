@@ -4,3 +4,6 @@ show_downloads: false
 shoe_credits: false
 google_analytics: UA-91457849-5
 theme: jekyll-theme-midnight
+include:
+  - "_*_.html"
+  - "_*_.*.html"
