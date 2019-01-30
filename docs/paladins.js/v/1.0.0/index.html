@@ -3,7 +3,7 @@
 <head>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<title>&quot;API&quot; | paladins.js</title>
+	<title>paladins.js | paladins.js</title>
 	<meta name="description" content="">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<style type="text/css">/*! normalize.css v1.1.3 | MIT License | git.io/normalize */
@@ -912,74 +912,45 @@ img { max-width: 100%; }
 </header>
 <nav class="tsd-navigation secondary">
 	<ul>
-		<li class=" tsd-kind-class tsd-parent-kind-external-module">
-			<a href="../classes/_api_.api.html" class="tsd-kind-icon">API</a>
-		</li>
-		<li class=" tsd-kind-variable tsd-parent-kind-external-module tsd-is-not-exported">
-			<a href="_api_.html#request" class="tsd-kind-icon">request</a>
-		</li>
-		<li class=" tsd-kind-variable tsd-parent-kind-external-module tsd-is-not-exported">
-			<a href="_api_.html#rp" class="tsd-kind-icon">rp</a>
-		</li>
-		<li class=" tsd-kind-variable tsd-parent-kind-external-module tsd-is-not-exported">
-			<a href="_api_.html#sr" class="tsd-kind-icon">sr</a>
-		</li>
 	</ul>
 </nav>
 <div class="container container-main">
 	<div class="content-wrap">
+		<div class="tsd-panel tsd-typography">
+			<h1 id="paladins-js">Paladins.js</h1>
+			<p><img src="https://img.shields.io/npm/l/paladins.js.svg?style=flat" alt="NPM License"> <img src="https://img.shields.io/npm/dm/paladins.js.svg?style=flat" alt="Downloads"></p>
+			<p>Paladins.js is a package that helps Hi-Rez/Paladins developers communicate with the API. </p>
+			<h2 id="install">Install</h2>
+			<pre><code>$ npm <span class="hljs-keyword">install</span> paladins.js</code></pre><h2 id="cache-driver">Cache Driver</h2>
+			<p>A cache driver is <strong>highly</strong> recommended. If there is no driver, it will create a new session on each request. This will make it so that your usage limits are hit within no time.</p>
+			<p>We use <a href="https://www.npmjs.com/package/cache-driver">cache-driver</a> to provide flexibility in what kind of caching system you would like to use, as long as it&#39;s an implementation of <code>cache-driver</code> then it will work out of the box.</p>
+			<h2 id="usage">Usage</h2>
+			<p><em>The following examples are in TypeScript, which this package is written in.</em></p>
+			<p>For the usage example&#39;s we&#39;ll be using <a href="https://www.npmjs.com/package/cache">cache</a>. We also need the <code>cache-driver</code> adapter for <code>cache</code> which is <a href="https://www.npmjs.com/package/cache-driver-cache">here</a></p>
+			<pre><code>$ npm <span class="hljs-keyword">install</span> <span class="hljs-keyword">cache</span> <span class="hljs-keyword">cache</span>-driver-<span class="hljs-keyword">cache</span></code></pre><pre><code class="language-javascript"><span class="hljs-keyword">import</span> API <span class="hljs-keyword">from</span> <span class="hljs-string">"paladins.js"</span>;
+<span class="hljs-keyword">import</span> { CacheAdapter } <span class="hljs-keyword">from</span> <span class="hljs-string">"cache-driver-cache"</span>;
+
+<span class="hljs-keyword">let</span> api = <span class="hljs-keyword">new</span> API(<span class="hljs-string">"devId"</span>, <span class="hljs-string">"auhtKey"</span>, <span class="hljs-keyword">new</span> CacheAdapter()); <span class="hljs-comment">// API loaded and ready to go. </span>
+
+api.getItems().then(<span class="hljs-function">(<span class="hljs-params">response: any</span>) =&gt;</span> {
+    <span class="hljs-comment">// Do something with response</span>
+});</code></pre>
+			<h2 id="documentation-methods">Documentation / Methods</h2>
+			<p>You can view all the available methods and documentation on the <a href="http://paladinsdev.com/docs/paladins.js/v/1.0.0/">PaladinsDev website</a>.</p>
+		</div>
+		<div style="position:relative;"><a name="typedoc-main-index" class="tsd-anchor"></a></div>
 		<section class="tsd-panel-group tsd-index-group">
 			<h2>Index</h2>
 			<section class="tsd-panel tsd-index-panel">
 				<div class="tsd-index-content">
 					<section class="tsd-index-section ">
-						<h3>Classes</h3>
+						<h3>External modules</h3>
 						<ul class="tsd-index-list">
-							<li class="tsd-kind-class tsd-parent-kind-external-module"><a href="../classes/_api_.api.html" class="tsd-kind-icon">API</a></li>
-						</ul>
-					</section>
-					<section class="tsd-index-section tsd-is-not-exported">
-						<h3>Variables</h3>
-						<ul class="tsd-index-list">
-							<li class="tsd-kind-variable tsd-parent-kind-external-module tsd-is-not-exported"><a href="_api_.html#request" class="tsd-kind-icon">request</a></li>
-							<li class="tsd-kind-variable tsd-parent-kind-external-module tsd-is-not-exported"><a href="_api_.html#rp" class="tsd-kind-icon">rp</a></li>
-							<li class="tsd-kind-variable tsd-parent-kind-external-module tsd-is-not-exported"><a href="_api_.html#sr" class="tsd-kind-icon">sr</a></li>
+							<li class="tsd-kind-external-module"><a href="modules/_api_.html" class="tsd-kind-icon">"API"</a></li>
+							<li class="tsd-kind-external-module"><a href="modules/_paladins_.html" class="tsd-kind-icon">"<wbr>Paladins"</a></li>
 						</ul>
 					</section>
 				</div>
-			</section>
-		</section>
-		<section class="tsd-panel-group tsd-member-group tsd-is-not-exported">
-			<h2>Variables</h2>
-			<section class="tsd-panel tsd-member tsd-kind-variable tsd-parent-kind-external-module tsd-is-not-exported">
-				<a name="request" class="tsd-anchor"></a>
-				<h3><span class="tsd-flag ts-flagConst">Const</span> request</h3>
-				<div class="tsd-signature tsd-kind-icon">request<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">any</span><span class="tsd-signature-symbol"> =&nbsp;require(&quot;request&quot;)</span></div>
-				<aside class="tsd-sources">
-					<ul>
-						<li>Defined in <a href="https://github.com/PaladinsDev/paladins.js/blob/51c67a9/src/API.ts#L6">API.ts:6</a></li>
-					</ul>
-				</aside>
-			</section>
-			<section class="tsd-panel tsd-member tsd-kind-variable tsd-parent-kind-external-module tsd-is-not-exported">
-				<a name="rp" class="tsd-anchor"></a>
-				<h3><span class="tsd-flag ts-flagConst">Const</span> rp</h3>
-				<div class="tsd-signature tsd-kind-icon">rp<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">any</span><span class="tsd-signature-symbol"> =&nbsp;require(&quot;request-promise&quot;)</span></div>
-				<aside class="tsd-sources">
-					<ul>
-						<li>Defined in <a href="https://github.com/PaladinsDev/paladins.js/blob/51c67a9/src/API.ts#L5">API.ts:5</a></li>
-					</ul>
-				</aside>
-			</section>
-			<section class="tsd-panel tsd-member tsd-kind-variable tsd-parent-kind-external-module tsd-is-not-exported">
-				<a name="sr" class="tsd-anchor"></a>
-				<h3><span class="tsd-flag ts-flagConst">Const</span> sr</h3>
-				<div class="tsd-signature tsd-kind-icon">sr<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">any</span><span class="tsd-signature-symbol"> =&nbsp;require(&quot;sync-request&quot;)</span></div>
-				<aside class="tsd-sources">
-					<ul>
-						<li>Defined in <a href="https://github.com/PaladinsDev/paladins.js/blob/51c67a9/src/API.ts#L7">API.ts:7</a></li>
-					</ul>
-				</aside>
 			</section>
 		</section>
 		<footer class="with-border-bottom">

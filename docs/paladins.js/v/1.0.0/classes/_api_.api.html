@@ -3,7 +3,7 @@
 <head>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<title>paladins.js | paladins.js</title>
+	<title>API | paladins.js</title>
 	<meta name="description" content="">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<style type="text/css">/*! normalize.css v1.1.3 | MIT License | git.io/normalize */
@@ -912,43 +912,1082 @@ img { max-width: 100%; }
 </header>
 <nav class="tsd-navigation secondary">
 	<ul>
+		<li class="current tsd-kind-class tsd-parent-kind-external-module">
+			<a href="_api_.api.html" class="tsd-kind-icon">API</a>
+			<ul>
+				<li class=" tsd-kind-constructor tsd-parent-kind-class">
+					<a href="_api_.api.html#constructor" class="tsd-kind-icon">constructor</a>
+				</li>
+				<li class=" tsd-kind-property tsd-parent-kind-class tsd-is-private">
+					<a href="_api_.api.html#apiurl" class="tsd-kind-icon">api<wbr>Url</a>
+				</li>
+				<li class=" tsd-kind-property tsd-parent-kind-class tsd-is-private">
+					<a href="_api_.api.html#authkey" class="tsd-kind-icon">auth<wbr>Key</a>
+				</li>
+				<li class=" tsd-kind-property tsd-parent-kind-class tsd-is-private">
+					<a href="_api_.api.html#cache" class="tsd-kind-icon">cache</a>
+				</li>
+				<li class=" tsd-kind-property tsd-parent-kind-class tsd-is-private">
+					<a href="_api_.api.html#devid" class="tsd-kind-icon">dev<wbr>Id</a>
+				</li>
+				<li class=" tsd-kind-property tsd-parent-kind-class tsd-is-private">
+					<a href="_api_.api.html#languageid" class="tsd-kind-icon">language<wbr>Id</a>
+				</li>
+				<li class=" tsd-kind-property tsd-parent-kind-class tsd-is-private">
+					<a href="_api_.api.html#sessioncacheid" class="tsd-kind-icon">session<wbr>Cache<wbr>Id</a>
+				</li>
+				<li class=" tsd-kind-property tsd-parent-kind-class tsd-is-private tsd-is-static">
+					<a href="_api_.api.html#instance" class="tsd-kind-icon">instance</a>
+				</li>
+				<li class=" tsd-kind-method tsd-parent-kind-class tsd-is-private">
+					<a href="_api_.api.html#buildurl" class="tsd-kind-icon">build<wbr>Url</a>
+				</li>
+				<li class=" tsd-kind-method tsd-parent-kind-class">
+					<a href="_api_.api.html#endpoint" class="tsd-kind-icon">endpoint</a>
+				</li>
+				<li class=" tsd-kind-method tsd-parent-kind-class">
+					<a href="_api_.api.html#getactivematchdetails" class="tsd-kind-icon">get<wbr>Active<wbr>Match<wbr>Details</a>
+				</li>
+				<li class=" tsd-kind-method tsd-parent-kind-class">
+					<a href="_api_.api.html#getchampioncards" class="tsd-kind-icon">get<wbr>Champion<wbr>Cards</a>
+				</li>
+				<li class=" tsd-kind-method tsd-parent-kind-class">
+					<a href="_api_.api.html#getchampionskins" class="tsd-kind-icon">get<wbr>Champion<wbr>Skins</a>
+				</li>
+				<li class=" tsd-kind-method tsd-parent-kind-class">
+					<a href="_api_.api.html#getchampions" class="tsd-kind-icon">get<wbr>Champions</a>
+				</li>
+				<li class=" tsd-kind-method tsd-parent-kind-class">
+					<a href="_api_.api.html#getdatausage" class="tsd-kind-icon">get<wbr>Data<wbr>Usage</a>
+				</li>
+				<li class=" tsd-kind-method tsd-parent-kind-class">
+					<a href="_api_.api.html#getitems" class="tsd-kind-icon">get<wbr>Items</a>
+				</li>
+				<li class=" tsd-kind-method tsd-parent-kind-class">
+					<a href="_api_.api.html#getmatchdetails" class="tsd-kind-icon">get<wbr>Match<wbr>Details</a>
+				</li>
+				<li class=" tsd-kind-method tsd-parent-kind-class">
+					<a href="_api_.api.html#getmatchidsbyqueue" class="tsd-kind-icon">get<wbr>Match<wbr>Ids<wbr>ByQueue</a>
+				</li>
+				<li class=" tsd-kind-method tsd-parent-kind-class">
+					<a href="_api_.api.html#getmatchmodedetails" class="tsd-kind-icon">get<wbr>Match<wbr>Mode<wbr>Details</a>
+				</li>
+				<li class=" tsd-kind-method tsd-parent-kind-class">
+					<a href="_api_.api.html#getplayer" class="tsd-kind-icon">get<wbr>Player</a>
+				</li>
+				<li class=" tsd-kind-method tsd-parent-kind-class">
+					<a href="_api_.api.html#getplayerchampionranks" class="tsd-kind-icon">get<wbr>Player<wbr>Champion<wbr>Ranks</a>
+				</li>
+				<li class=" tsd-kind-method tsd-parent-kind-class">
+					<a href="_api_.api.html#getplayerfriends" class="tsd-kind-icon">get<wbr>Player<wbr>Friends</a>
+				</li>
+				<li class=" tsd-kind-method tsd-parent-kind-class">
+					<a href="_api_.api.html#getplayeridbyname" class="tsd-kind-icon">get<wbr>Player<wbr>IdBy<wbr>Name</a>
+				</li>
+				<li class=" tsd-kind-method tsd-parent-kind-class">
+					<a href="_api_.api.html#getplayeridbyportaluserid" class="tsd-kind-icon">get<wbr>Player<wbr>IdBy<wbr>Portal<wbr>User<wbr>Id</a>
+				</li>
+				<li class=" tsd-kind-method tsd-parent-kind-class">
+					<a href="_api_.api.html#getplayeridinfoforxboxandswitch" class="tsd-kind-icon">get<wbr>Player<wbr>IdInfo<wbr>For<wbr>Xbox<wbr>And<wbr>Switch</a>
+				</li>
+				<li class=" tsd-kind-method tsd-parent-kind-class">
+					<a href="_api_.api.html#getplayeridsbygamertag" class="tsd-kind-icon">get<wbr>Player<wbr>Ids<wbr>ByGamertag</a>
+				</li>
+				<li class=" tsd-kind-method tsd-parent-kind-class">
+					<a href="_api_.api.html#getplayerloadouts" class="tsd-kind-icon">get<wbr>Player<wbr>Loadouts</a>
+				</li>
+				<li class=" tsd-kind-method tsd-parent-kind-class">
+					<a href="_api_.api.html#getplayermatchhistory" class="tsd-kind-icon">get<wbr>Player<wbr>Match<wbr>History</a>
+				</li>
+				<li class=" tsd-kind-method tsd-parent-kind-class">
+					<a href="_api_.api.html#getplayerstatus" class="tsd-kind-icon">get<wbr>Player<wbr>Status</a>
+				</li>
+				<li class=" tsd-kind-method tsd-parent-kind-class tsd-is-private">
+					<a href="_api_.api.html#getsession" class="tsd-kind-icon">get<wbr>Session</a>
+				</li>
+				<li class=" tsd-kind-method tsd-parent-kind-class tsd-is-private">
+					<a href="_api_.api.html#getsignature" class="tsd-kind-icon">get<wbr>Signature</a>
+				</li>
+				<li class=" tsd-kind-method tsd-parent-kind-class tsd-is-private">
+					<a href="_api_.api.html#gettimestamp" class="tsd-kind-icon">get<wbr>Timestamp</a>
+				</li>
+				<li class=" tsd-kind-method tsd-parent-kind-class">
+					<a href="_api_.api.html#gettopmatches" class="tsd-kind-icon">get<wbr>Top<wbr>Matches</a>
+				</li>
+				<li class=" tsd-kind-method tsd-parent-kind-class tsd-is-private">
+					<a href="_api_.api.html#makerequest" class="tsd-kind-icon">make<wbr>Request</a>
+				</li>
+				<li class=" tsd-kind-method tsd-parent-kind-class tsd-is-static">
+					<a href="_api_.api.html#getinstance" class="tsd-kind-icon">get<wbr>Instance</a>
+				</li>
+			</ul>
+		</li>
+		<li class=" tsd-kind-variable tsd-parent-kind-external-module tsd-is-not-exported">
+			<a href="../modules/_api_.html#request" class="tsd-kind-icon">request</a>
+		</li>
+		<li class=" tsd-kind-variable tsd-parent-kind-external-module tsd-is-not-exported">
+			<a href="../modules/_api_.html#rp" class="tsd-kind-icon">rp</a>
+		</li>
+		<li class=" tsd-kind-variable tsd-parent-kind-external-module tsd-is-not-exported">
+			<a href="../modules/_api_.html#sr" class="tsd-kind-icon">sr</a>
+		</li>
 	</ul>
 </nav>
 <div class="container container-main">
 	<div class="content-wrap">
-		<div class="tsd-panel tsd-typography">
-			<h1 id="paladins-js">Paladins.js</h1>
-			<p><img src="https://img.shields.io/npm/l/paladins.js.svg?style=flat" alt="NPM License"> <img src="https://img.shields.io/npm/dm/paladins.js.svg?style=flat" alt="Downloads"></p>
-			<p>Paladins.js is a package that helps Hi-Rez/Paladins developers communicate with the API. </p>
-			<h2 id="install">Install</h2>
-			<pre><code>$ npm <span class="hljs-keyword">install</span> paladins.js</code></pre><h2 id="cache-driver">Cache Driver</h2>
-			<p>A cache driver is <strong>highly</strong> recommended. If there is no driver, it will create a new session on each request. This will make it so that your usage limits are hit within no time.</p>
-			<p>We use <a href="https://www.npmjs.com/package/cache-driver">cache-driver</a> to provide flexibility in what kind of caching system you would like to use, as long as it&#39;s an implementation of <code>cache-driver</code> then it will work out of the box.</p>
-			<h2 id="usage">Usage</h2>
-			<p><em>The following examples are in TypeScript, which this package is written in.</em></p>
-			<p>For the usage example&#39;s we&#39;ll be using <a href="https://www.npmjs.com/package/cache">cache</a>. We also need the <code>cache-driver</code> adapter for <code>cache</code> which is <a href="https://www.npmjs.com/package/cache-driver-cache">here</a></p>
-			<pre><code>$ npm <span class="hljs-keyword">install</span> <span class="hljs-keyword">cache</span> <span class="hljs-keyword">cache</span>-driver-<span class="hljs-keyword">cache</span></code></pre><pre><code class="language-javascript"><span class="hljs-keyword">import</span> API <span class="hljs-keyword">from</span> <span class="hljs-string">"paladins.js"</span>;
-<span class="hljs-keyword">import</span> { CacheAdapter } <span class="hljs-keyword">from</span> <span class="hljs-string">"cache-driver-cache"</span>;
-
-<span class="hljs-keyword">let</span> api = <span class="hljs-keyword">new</span> API(<span class="hljs-string">"devId"</span>, <span class="hljs-string">"auhtKey"</span>, <span class="hljs-keyword">new</span> CacheAdapter()); <span class="hljs-comment">// API loaded and ready to go. </span>
-
-api.getItems().then(<span class="hljs-function">(<span class="hljs-params">response: any</span>) =&gt;</span> {
-    <span class="hljs-comment">// Do something with response</span>
-});</code></pre>
-		</div>
-		<div style="position:relative;"><a name="typedoc-main-index" class="tsd-anchor"></a></div>
+		<section class="tsd-panel tsd-hierarchy">
+			<h3>Hierarchy</h3>
+			<ul class="tsd-hierarchy">
+				<li>
+					<span class="target">API</span>
+				</li>
+			</ul>
+		</section>
 		<section class="tsd-panel-group tsd-index-group">
 			<h2>Index</h2>
 			<section class="tsd-panel tsd-index-panel">
 				<div class="tsd-index-content">
 					<section class="tsd-index-section ">
-						<h3>External modules</h3>
+						<h3>Constructors</h3>
 						<ul class="tsd-index-list">
-							<li class="tsd-kind-external-module"><a href="modules/_api_.html" class="tsd-kind-icon">"API"</a></li>
-							<li class="tsd-kind-external-module"><a href="modules/_paladins_.html" class="tsd-kind-icon">"<wbr>Paladins"</a></li>
+							<li class="tsd-kind-constructor tsd-parent-kind-class"><a href="_api_.api.html#constructor" class="tsd-kind-icon">constructor</a></li>
+						</ul>
+					</section>
+					<section class="tsd-index-section tsd-is-private tsd-is-private-protected">
+						<h3>Properties</h3>
+						<ul class="tsd-index-list">
+							<li class="tsd-kind-property tsd-parent-kind-class tsd-is-private"><a href="_api_.api.html#apiurl" class="tsd-kind-icon">api<wbr>Url</a></li>
+							<li class="tsd-kind-property tsd-parent-kind-class tsd-is-private"><a href="_api_.api.html#authkey" class="tsd-kind-icon">auth<wbr>Key</a></li>
+							<li class="tsd-kind-property tsd-parent-kind-class tsd-is-private"><a href="_api_.api.html#cache" class="tsd-kind-icon">cache</a></li>
+							<li class="tsd-kind-property tsd-parent-kind-class tsd-is-private"><a href="_api_.api.html#devid" class="tsd-kind-icon">dev<wbr>Id</a></li>
+							<li class="tsd-kind-property tsd-parent-kind-class tsd-is-private"><a href="_api_.api.html#languageid" class="tsd-kind-icon">language<wbr>Id</a></li>
+							<li class="tsd-kind-property tsd-parent-kind-class tsd-is-private"><a href="_api_.api.html#sessioncacheid" class="tsd-kind-icon">session<wbr>Cache<wbr>Id</a></li>
+							<li class="tsd-kind-property tsd-parent-kind-class tsd-is-private tsd-is-static"><a href="_api_.api.html#instance" class="tsd-kind-icon">instance</a></li>
+						</ul>
+					</section>
+					<section class="tsd-index-section ">
+						<h3>Methods</h3>
+						<ul class="tsd-index-list">
+							<li class="tsd-kind-method tsd-parent-kind-class tsd-is-private"><a href="_api_.api.html#buildurl" class="tsd-kind-icon">build<wbr>Url</a></li>
+							<li class="tsd-kind-method tsd-parent-kind-class"><a href="_api_.api.html#endpoint" class="tsd-kind-icon">endpoint</a></li>
+							<li class="tsd-kind-method tsd-parent-kind-class"><a href="_api_.api.html#getactivematchdetails" class="tsd-kind-icon">get<wbr>Active<wbr>Match<wbr>Details</a></li>
+							<li class="tsd-kind-method tsd-parent-kind-class"><a href="_api_.api.html#getchampioncards" class="tsd-kind-icon">get<wbr>Champion<wbr>Cards</a></li>
+							<li class="tsd-kind-method tsd-parent-kind-class"><a href="_api_.api.html#getchampionskins" class="tsd-kind-icon">get<wbr>Champion<wbr>Skins</a></li>
+							<li class="tsd-kind-method tsd-parent-kind-class"><a href="_api_.api.html#getchampions" class="tsd-kind-icon">get<wbr>Champions</a></li>
+							<li class="tsd-kind-method tsd-parent-kind-class"><a href="_api_.api.html#getdatausage" class="tsd-kind-icon">get<wbr>Data<wbr>Usage</a></li>
+							<li class="tsd-kind-method tsd-parent-kind-class"><a href="_api_.api.html#getitems" class="tsd-kind-icon">get<wbr>Items</a></li>
+							<li class="tsd-kind-method tsd-parent-kind-class"><a href="_api_.api.html#getmatchdetails" class="tsd-kind-icon">get<wbr>Match<wbr>Details</a></li>
+							<li class="tsd-kind-method tsd-parent-kind-class"><a href="_api_.api.html#getmatchidsbyqueue" class="tsd-kind-icon">get<wbr>Match<wbr>Ids<wbr>ByQueue</a></li>
+							<li class="tsd-kind-method tsd-parent-kind-class"><a href="_api_.api.html#getmatchmodedetails" class="tsd-kind-icon">get<wbr>Match<wbr>Mode<wbr>Details</a></li>
+							<li class="tsd-kind-method tsd-parent-kind-class"><a href="_api_.api.html#getplayer" class="tsd-kind-icon">get<wbr>Player</a></li>
+							<li class="tsd-kind-method tsd-parent-kind-class"><a href="_api_.api.html#getplayerchampionranks" class="tsd-kind-icon">get<wbr>Player<wbr>Champion<wbr>Ranks</a></li>
+							<li class="tsd-kind-method tsd-parent-kind-class"><a href="_api_.api.html#getplayerfriends" class="tsd-kind-icon">get<wbr>Player<wbr>Friends</a></li>
+							<li class="tsd-kind-method tsd-parent-kind-class"><a href="_api_.api.html#getplayeridbyname" class="tsd-kind-icon">get<wbr>Player<wbr>IdBy<wbr>Name</a></li>
+							<li class="tsd-kind-method tsd-parent-kind-class"><a href="_api_.api.html#getplayeridbyportaluserid" class="tsd-kind-icon">get<wbr>Player<wbr>IdBy<wbr>Portal<wbr>User<wbr>Id</a></li>
+							<li class="tsd-kind-method tsd-parent-kind-class"><a href="_api_.api.html#getplayeridinfoforxboxandswitch" class="tsd-kind-icon">get<wbr>Player<wbr>IdInfo<wbr>For<wbr>Xbox<wbr>And<wbr>Switch</a></li>
+							<li class="tsd-kind-method tsd-parent-kind-class"><a href="_api_.api.html#getplayeridsbygamertag" class="tsd-kind-icon">get<wbr>Player<wbr>Ids<wbr>ByGamertag</a></li>
+							<li class="tsd-kind-method tsd-parent-kind-class"><a href="_api_.api.html#getplayerloadouts" class="tsd-kind-icon">get<wbr>Player<wbr>Loadouts</a></li>
+							<li class="tsd-kind-method tsd-parent-kind-class"><a href="_api_.api.html#getplayermatchhistory" class="tsd-kind-icon">get<wbr>Player<wbr>Match<wbr>History</a></li>
+							<li class="tsd-kind-method tsd-parent-kind-class"><a href="_api_.api.html#getplayerstatus" class="tsd-kind-icon">get<wbr>Player<wbr>Status</a></li>
+							<li class="tsd-kind-method tsd-parent-kind-class tsd-is-private"><a href="_api_.api.html#getsession" class="tsd-kind-icon">get<wbr>Session</a></li>
+							<li class="tsd-kind-method tsd-parent-kind-class tsd-is-private"><a href="_api_.api.html#getsignature" class="tsd-kind-icon">get<wbr>Signature</a></li>
+							<li class="tsd-kind-method tsd-parent-kind-class tsd-is-private"><a href="_api_.api.html#gettimestamp" class="tsd-kind-icon">get<wbr>Timestamp</a></li>
+							<li class="tsd-kind-method tsd-parent-kind-class"><a href="_api_.api.html#gettopmatches" class="tsd-kind-icon">get<wbr>Top<wbr>Matches</a></li>
+							<li class="tsd-kind-method tsd-parent-kind-class tsd-is-private"><a href="_api_.api.html#makerequest" class="tsd-kind-icon">make<wbr>Request</a></li>
+							<li class="tsd-kind-method tsd-parent-kind-class tsd-is-static"><a href="_api_.api.html#getinstance" class="tsd-kind-icon">get<wbr>Instance</a></li>
 						</ul>
 					</section>
 				</div>
+			</section>
+		</section>
+		<section class="tsd-panel-group tsd-member-group ">
+			<h2>Constructors</h2>
+			<section class="tsd-panel tsd-member tsd-kind-constructor tsd-parent-kind-class">
+				<a name="constructor" class="tsd-anchor"></a>
+				<h3>constructor</h3>
+				<ul class="tsd-signatures tsd-kind-constructor tsd-parent-kind-class">
+					<li class="tsd-signature tsd-kind-icon">new API<span class="tsd-signature-symbol">(</span>devId<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span>, authKey<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span>, cache<span class="tsd-signature-symbol">?: </span><span class="tsd-signature-type">Cache</span>, languageId<span class="tsd-signature-symbol">?: </span><span class="tsd-signature-type">undefined</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">number</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><a href="_api_.api.html" class="tsd-signature-type">API</a></li>
+				</ul>
+				<ul class="tsd-descriptions">
+					<li class="tsd-description">
+						<aside class="tsd-sources">
+							<ul>
+								<li>Defined in <a href="https://github.com/PaladinsDev/paladins.js/blob/c2adb5f/src/API.ts#L14">API.ts:14</a></li>
+							</ul>
+						</aside>
+						<h4 class="tsd-parameters-title">Parameters</h4>
+						<ul class="tsd-parameters">
+							<li>
+								<h5>devId: <span class="tsd-signature-type">string</span></h5>
+							</li>
+							<li>
+								<h5>authKey: <span class="tsd-signature-type">string</span></h5>
+							</li>
+							<li>
+								<h5><span class="tsd-flag ts-flagOptional">Optional</span> cache: <span class="tsd-signature-type">Cache</span></h5>
+							</li>
+							<li>
+								<h5><span class="tsd-flag ts-flagOptional">Optional</span> languageId: <span class="tsd-signature-type">undefined</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">number</span></h5>
+							</li>
+						</ul>
+						<h4 class="tsd-returns-title">Returns <a href="_api_.api.html" class="tsd-signature-type">API</a></h4>
+					</li>
+				</ul>
+			</section>
+		</section>
+		<section class="tsd-panel-group tsd-member-group tsd-is-private tsd-is-private-protected">
+			<h2>Properties</h2>
+			<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class tsd-is-private">
+				<a name="apiurl" class="tsd-anchor"></a>
+				<h3><span class="tsd-flag ts-flagPrivate">Private</span> api<wbr>Url</h3>
+				<div class="tsd-signature tsd-kind-icon">api<wbr>Url<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">string</span><span class="tsd-signature-symbol"> =&nbsp;&quot;http://api.paladins.com/paladinsapi.svc&quot;</span></div>
+				<aside class="tsd-sources">
+					<ul>
+						<li>Defined in <a href="https://github.com/PaladinsDev/paladins.js/blob/c2adb5f/src/API.ts#L13">API.ts:13</a></li>
+					</ul>
+				</aside>
+			</section>
+			<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class tsd-is-private">
+				<a name="authkey" class="tsd-anchor"></a>
+				<h3><span class="tsd-flag ts-flagPrivate">Private</span> auth<wbr>Key</h3>
+				<div class="tsd-signature tsd-kind-icon">auth<wbr>Key<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">string</span></div>
+				<aside class="tsd-sources">
+					<ul>
+						<li>Defined in <a href="https://github.com/PaladinsDev/paladins.js/blob/c2adb5f/src/API.ts#L16">API.ts:16</a></li>
+					</ul>
+				</aside>
+			</section>
+			<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class tsd-is-private">
+				<a name="cache" class="tsd-anchor"></a>
+				<h3><span class="tsd-flag ts-flagPrivate">Private</span> cache</h3>
+				<div class="tsd-signature tsd-kind-icon">cache<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">Cache</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">null</span><span class="tsd-signature-symbol"> =&nbsp;null</span></div>
+				<aside class="tsd-sources">
+					<ul>
+						<li>Defined in <a href="https://github.com/PaladinsDev/paladins.js/blob/c2adb5f/src/API.ts#L12">API.ts:12</a></li>
+					</ul>
+				</aside>
+			</section>
+			<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class tsd-is-private">
+				<a name="devid" class="tsd-anchor"></a>
+				<h3><span class="tsd-flag ts-flagPrivate">Private</span> dev<wbr>Id</h3>
+				<div class="tsd-signature tsd-kind-icon">dev<wbr>Id<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">string</span></div>
+				<aside class="tsd-sources">
+					<ul>
+						<li>Defined in <a href="https://github.com/PaladinsDev/paladins.js/blob/c2adb5f/src/API.ts#L16">API.ts:16</a></li>
+					</ul>
+				</aside>
+			</section>
+			<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class tsd-is-private">
+				<a name="languageid" class="tsd-anchor"></a>
+				<h3><span class="tsd-flag ts-flagPrivate">Private</span> <span class="tsd-flag ts-flagOptional">Optional</span> language<wbr>Id</h3>
+				<div class="tsd-signature tsd-kind-icon">language<wbr>Id<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">undefined</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">number</span></div>
+				<aside class="tsd-sources">
+					<ul>
+						<li>Defined in <a href="https://github.com/PaladinsDev/paladins.js/blob/c2adb5f/src/API.ts#L16">API.ts:16</a></li>
+					</ul>
+				</aside>
+			</section>
+			<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class tsd-is-private">
+				<a name="sessioncacheid" class="tsd-anchor"></a>
+				<h3><span class="tsd-flag ts-flagPrivate">Private</span> session<wbr>Cache<wbr>Id</h3>
+				<div class="tsd-signature tsd-kind-icon">session<wbr>Cache<wbr>Id<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">string</span><span class="tsd-signature-symbol"> =&nbsp;&quot;paladinsjs.sessionId&quot;</span></div>
+				<aside class="tsd-sources">
+					<ul>
+						<li>Defined in <a href="https://github.com/PaladinsDev/paladins.js/blob/c2adb5f/src/API.ts#L14">API.ts:14</a></li>
+					</ul>
+				</aside>
+			</section>
+			<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class tsd-is-private tsd-is-static">
+				<a name="instance" class="tsd-anchor"></a>
+				<h3><span class="tsd-flag ts-flagStatic">Static</span> <span class="tsd-flag ts-flagPrivate">Private</span> instance</h3>
+				<div class="tsd-signature tsd-kind-icon">instance<span class="tsd-signature-symbol">:</span> <a href="_api_.api.html" class="tsd-signature-type">API</a></div>
+				<aside class="tsd-sources">
+					<ul>
+						<li>Defined in <a href="https://github.com/PaladinsDev/paladins.js/blob/c2adb5f/src/API.ts#L10">API.ts:10</a></li>
+					</ul>
+				</aside>
+			</section>
+		</section>
+		<section class="tsd-panel-group tsd-member-group ">
+			<h2>Methods</h2>
+			<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class tsd-is-private">
+				<a name="buildurl" class="tsd-anchor"></a>
+				<h3><span class="tsd-flag ts-flagPrivate">Private</span> build<wbr>Url</h3>
+				<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class tsd-is-private">
+					<li class="tsd-signature tsd-kind-icon">build<wbr>Url<span class="tsd-signature-symbol">(</span>method<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span>, player<span class="tsd-signature-symbol">?: </span><span class="tsd-signature-type">any</span>, lang<span class="tsd-signature-symbol">?: </span><span class="tsd-signature-type">undefined</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">number</span>, matchId<span class="tsd-signature-symbol">?: </span><span class="tsd-signature-type">undefined</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">number</span>, champId<span class="tsd-signature-symbol">?: </span><span class="tsd-signature-type">undefined</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">number</span>, queue<span class="tsd-signature-symbol">?: </span><span class="tsd-signature-type">undefined</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">number</span>, tier<span class="tsd-signature-symbol">?: </span><span class="tsd-signature-type">undefined</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">number</span>, season<span class="tsd-signature-symbol">?: </span><span class="tsd-signature-type">undefined</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">number</span>, platform<span class="tsd-signature-symbol">?: </span><span class="tsd-signature-type">undefined</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">number</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span></li>
+				</ul>
+				<ul class="tsd-descriptions">
+					<li class="tsd-description">
+						<aside class="tsd-sources">
+							<ul>
+								<li>Defined in <a href="https://github.com/PaladinsDev/paladins.js/blob/c2adb5f/src/API.ts#L310">API.ts:310</a></li>
+							</ul>
+						</aside>
+						<div class="tsd-comment tsd-typography">
+							<div class="lead">
+								<p>Build the proper URL for a variety of methods.</p>
+							</div>
+						</div>
+						<h4 class="tsd-parameters-title">Parameters</h4>
+						<ul class="tsd-parameters">
+							<li>
+								<h5>method: <span class="tsd-signature-type">string</span></h5>
+							</li>
+							<li>
+								<h5><span class="tsd-flag ts-flagOptional">Optional</span> player: <span class="tsd-signature-type">any</span></h5>
+							</li>
+							<li>
+								<h5><span class="tsd-flag ts-flagOptional">Optional</span> lang: <span class="tsd-signature-type">undefined</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">number</span></h5>
+							</li>
+							<li>
+								<h5><span class="tsd-flag ts-flagOptional">Optional</span> matchId: <span class="tsd-signature-type">undefined</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">number</span></h5>
+							</li>
+							<li>
+								<h5><span class="tsd-flag ts-flagOptional">Optional</span> champId: <span class="tsd-signature-type">undefined</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">number</span></h5>
+							</li>
+							<li>
+								<h5><span class="tsd-flag ts-flagOptional">Optional</span> queue: <span class="tsd-signature-type">undefined</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">number</span></h5>
+							</li>
+							<li>
+								<h5><span class="tsd-flag ts-flagOptional">Optional</span> tier: <span class="tsd-signature-type">undefined</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">number</span></h5>
+							</li>
+							<li>
+								<h5><span class="tsd-flag ts-flagOptional">Optional</span> season: <span class="tsd-signature-type">undefined</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">number</span></h5>
+							</li>
+							<li>
+								<h5><span class="tsd-flag ts-flagOptional">Optional</span> platform: <span class="tsd-signature-type">undefined</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">number</span></h5>
+							</li>
+						</ul>
+						<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">string</span></h4>
+						<p>string</p>
+					</li>
+				</ul>
+			</section>
+			<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class">
+				<a name="endpoint" class="tsd-anchor"></a>
+				<h3>endpoint</h3>
+				<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class">
+					<li class="tsd-signature tsd-kind-icon">endpoint<span class="tsd-signature-symbol">(</span>endpoint<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span>, args<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">Array</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">any</span><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">any</span></li>
+				</ul>
+				<ul class="tsd-descriptions">
+					<li class="tsd-description">
+						<aside class="tsd-sources">
+							<ul>
+								<li>Defined in <a href="https://github.com/PaladinsDev/paladins.js/blob/c2adb5f/src/API.ts#L239">API.ts:239</a></li>
+							</ul>
+						</aside>
+						<div class="tsd-comment tsd-typography">
+						</div>
+						<h4 class="tsd-parameters-title">Parameters</h4>
+						<ul class="tsd-parameters">
+							<li>
+								<h5>endpoint: <span class="tsd-signature-type">string</span></h5>
+							</li>
+							<li>
+								<h5>args: <span class="tsd-signature-type">Array</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">any</span><span class="tsd-signature-symbol">&gt;</span></h5>
+							</li>
+						</ul>
+						<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">any</span></h4>
+					</li>
+				</ul>
+			</section>
+			<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class">
+				<a name="getactivematchdetails" class="tsd-anchor"></a>
+				<h3>get<wbr>Active<wbr>Match<wbr>Details</h3>
+				<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class">
+					<li class="tsd-signature tsd-kind-icon">get<wbr>Active<wbr>Match<wbr>Details<span class="tsd-signature-symbol">(</span>matchId<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">number</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">any</span></li>
+				</ul>
+				<ul class="tsd-descriptions">
+					<li class="tsd-description">
+						<aside class="tsd-sources">
+							<ul>
+								<li>Defined in <a href="https://github.com/PaladinsDev/paladins.js/blob/c2adb5f/src/API.ts#L220">API.ts:220</a></li>
+							</ul>
+						</aside>
+						<div class="tsd-comment tsd-typography">
+							<div class="lead">
+								<p>Get some basic info for a live/active match.</p>
+							</div>
+						</div>
+						<h4 class="tsd-parameters-title">Parameters</h4>
+						<ul class="tsd-parameters">
+							<li>
+								<h5>matchId: <span class="tsd-signature-type">number</span></h5>
+							</li>
+						</ul>
+						<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">any</span></h4>
+						<p>any</p>
+					</li>
+				</ul>
+			</section>
+			<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class">
+				<a name="getchampioncards" class="tsd-anchor"></a>
+				<h3>get<wbr>Champion<wbr>Cards</h3>
+				<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class">
+					<li class="tsd-signature tsd-kind-icon">get<wbr>Champion<wbr>Cards<span class="tsd-signature-symbol">(</span>championId<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">number</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">any</span></li>
+				</ul>
+				<ul class="tsd-descriptions">
+					<li class="tsd-description">
+						<aside class="tsd-sources">
+							<ul>
+								<li>Defined in <a href="https://github.com/PaladinsDev/paladins.js/blob/c2adb5f/src/API.ts#L62">API.ts:62</a></li>
+							</ul>
+						</aside>
+						<div class="tsd-comment tsd-typography">
+							<div class="lead">
+								<p>Get all the available cards for the requested champion.</p>
+							</div>
+						</div>
+						<h4 class="tsd-parameters-title">Parameters</h4>
+						<ul class="tsd-parameters">
+							<li>
+								<h5>championId: <span class="tsd-signature-type">number</span></h5>
+							</li>
+						</ul>
+						<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">any</span></h4>
+						<p>any</p>
+					</li>
+				</ul>
+			</section>
+			<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class">
+				<a name="getchampionskins" class="tsd-anchor"></a>
+				<h3>get<wbr>Champion<wbr>Skins</h3>
+				<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class">
+					<li class="tsd-signature tsd-kind-icon">get<wbr>Champion<wbr>Skins<span class="tsd-signature-symbol">(</span>championId<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">number</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">any</span></li>
+				</ul>
+				<ul class="tsd-descriptions">
+					<li class="tsd-description">
+						<aside class="tsd-sources">
+							<ul>
+								<li>Defined in <a href="https://github.com/PaladinsDev/paladins.js/blob/c2adb5f/src/API.ts#L72">API.ts:72</a></li>
+							</ul>
+						</aside>
+						<div class="tsd-comment tsd-typography">
+							<div class="lead">
+								<p>Get all the available skins for the requested champion.</p>
+							</div>
+						</div>
+						<h4 class="tsd-parameters-title">Parameters</h4>
+						<ul class="tsd-parameters">
+							<li>
+								<h5>championId: <span class="tsd-signature-type">number</span></h5>
+							</li>
+						</ul>
+						<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">any</span></h4>
+						<p>any</p>
+					</li>
+				</ul>
+			</section>
+			<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class">
+				<a name="getchampions" class="tsd-anchor"></a>
+				<h3>get<wbr>Champions</h3>
+				<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class">
+					<li class="tsd-signature tsd-kind-icon">get<wbr>Champions<span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">any</span></li>
+				</ul>
+				<ul class="tsd-descriptions">
+					<li class="tsd-description">
+						<aside class="tsd-sources">
+							<ul>
+								<li>Defined in <a href="https://github.com/PaladinsDev/paladins.js/blob/c2adb5f/src/API.ts#L52">API.ts:52</a></li>
+							</ul>
+						</aside>
+						<div class="tsd-comment tsd-typography">
+							<div class="lead">
+								<p>Get all the champions for the game.</p>
+							</div>
+						</div>
+						<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">any</span></h4>
+						<p>any</p>
+					</li>
+				</ul>
+			</section>
+			<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class">
+				<a name="getdatausage" class="tsd-anchor"></a>
+				<h3>get<wbr>Data<wbr>Usage</h3>
+				<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class">
+					<li class="tsd-signature tsd-kind-icon">get<wbr>Data<wbr>Usage<span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">any</span></li>
+				</ul>
+				<ul class="tsd-descriptions">
+					<li class="tsd-description">
+						<aside class="tsd-sources">
+							<ul>
+								<li>Defined in <a href="https://github.com/PaladinsDev/paladins.js/blob/c2adb5f/src/API.ts#L230">API.ts:230</a></li>
+							</ul>
+						</aside>
+						<div class="tsd-comment tsd-typography">
+							<div class="lead">
+								<p>Show the current usage and usage limits for the API.</p>
+							</div>
+						</div>
+						<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">any</span></h4>
+						<p>any</p>
+					</li>
+				</ul>
+			</section>
+			<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class">
+				<a name="getitems" class="tsd-anchor"></a>
+				<h3>get<wbr>Items</h3>
+				<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class">
+					<li class="tsd-signature tsd-kind-icon">get<wbr>Items<span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">any</span></li>
+				</ul>
+				<ul class="tsd-descriptions">
+					<li class="tsd-description">
+						<aside class="tsd-sources">
+							<ul>
+								<li>Defined in <a href="https://github.com/PaladinsDev/paladins.js/blob/c2adb5f/src/API.ts#L81">API.ts:81</a></li>
+							</ul>
+						</aside>
+						<div class="tsd-comment tsd-typography">
+							<div class="lead">
+								<p>Get all the available in game items.</p>
+							</div>
+						</div>
+						<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">any</span></h4>
+						<p>any</p>
+					</li>
+				</ul>
+			</section>
+			<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class">
+				<a name="getmatchdetails" class="tsd-anchor"></a>
+				<h3>get<wbr>Match<wbr>Details</h3>
+				<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class">
+					<li class="tsd-signature tsd-kind-icon">get<wbr>Match<wbr>Details<span class="tsd-signature-symbol">(</span>matchId<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">number</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">any</span></li>
+				</ul>
+				<ul class="tsd-descriptions">
+					<li class="tsd-description">
+						<aside class="tsd-sources">
+							<ul>
+								<li>Defined in <a href="https://github.com/PaladinsDev/paladins.js/blob/c2adb5f/src/API.ts#L209">API.ts:209</a></li>
+							</ul>
+						</aside>
+						<div class="tsd-comment tsd-typography">
+							<div class="lead">
+								<p>Get match details from an ended match.</p>
+							</div>
+						</div>
+						<h4 class="tsd-parameters-title">Parameters</h4>
+						<ul class="tsd-parameters">
+							<li>
+								<h5>matchId: <span class="tsd-signature-type">number</span></h5>
+							</li>
+						</ul>
+						<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">any</span></h4>
+						<p>any</p>
+					</li>
+				</ul>
+			</section>
+			<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class">
+				<a name="getmatchidsbyqueue" class="tsd-anchor"></a>
+				<h3>get<wbr>Match<wbr>Ids<wbr>ByQueue</h3>
+				<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class">
+					<li class="tsd-signature tsd-kind-icon">get<wbr>Match<wbr>Ids<wbr>ByQueue<span class="tsd-signature-symbol">(</span>hour<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span>, date<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">any</span>, queue<span class="tsd-signature-symbol">?: </span><span class="tsd-signature-type">number</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">any</span></li>
+				</ul>
+				<ul class="tsd-descriptions">
+					<li class="tsd-description">
+						<aside class="tsd-sources">
+							<ul>
+								<li>Defined in <a href="https://github.com/PaladinsDev/paladins.js/blob/c2adb5f/src/API.ts#L43">API.ts:43</a></li>
+							</ul>
+						</aside>
+						<h4 class="tsd-parameters-title">Parameters</h4>
+						<ul class="tsd-parameters">
+							<li>
+								<h5>hour: <span class="tsd-signature-type">string</span></h5>
+							</li>
+							<li>
+								<h5>date: <span class="tsd-signature-type">any</span></h5>
+							</li>
+							<li>
+								<h5><span class="tsd-flag ts-flagDefault value">Default value</span> queue: <span class="tsd-signature-type">number</span><span class="tsd-signature-symbol"> =&nbsp;424</span></h5>
+							</li>
+						</ul>
+						<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">any</span></h4>
+					</li>
+				</ul>
+			</section>
+			<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class">
+				<a name="getmatchmodedetails" class="tsd-anchor"></a>
+				<h3>get<wbr>Match<wbr>Mode<wbr>Details</h3>
+				<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class">
+					<li class="tsd-signature tsd-kind-icon">get<wbr>Match<wbr>Mode<wbr>Details<span class="tsd-signature-symbol">(</span>matchId<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">number</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">any</span></li>
+				</ul>
+				<ul class="tsd-descriptions">
+					<li class="tsd-description">
+						<aside class="tsd-sources">
+							<ul>
+								<li>Defined in <a href="https://github.com/PaladinsDev/paladins.js/blob/c2adb5f/src/API.ts#L198">API.ts:198</a></li>
+							</ul>
+						</aside>
+						<div class="tsd-comment tsd-typography">
+							<div class="lead">
+								<p>Get the information for an ended match.</p>
+							</div>
+						</div>
+						<h4 class="tsd-parameters-title">Parameters</h4>
+						<ul class="tsd-parameters">
+							<li>
+								<h5>matchId: <span class="tsd-signature-type">number</span></h5>
+							</li>
+						</ul>
+						<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">any</span></h4>
+						<p>any</p>
+					</li>
+				</ul>
+			</section>
+			<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class">
+				<a name="getplayer" class="tsd-anchor"></a>
+				<h3>get<wbr>Player</h3>
+				<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class">
+					<li class="tsd-signature tsd-kind-icon">get<wbr>Player<span class="tsd-signature-symbol">(</span>player<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">number</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">any</span></li>
+				</ul>
+				<ul class="tsd-descriptions">
+					<li class="tsd-description">
+						<aside class="tsd-sources">
+							<ul>
+								<li>Defined in <a href="https://github.com/PaladinsDev/paladins.js/blob/c2adb5f/src/API.ts#L91">API.ts:91</a></li>
+							</ul>
+						</aside>
+						<div class="tsd-comment tsd-typography">
+							<div class="lead">
+								<p>Get a player and their details from the API.</p>
+							</div>
+						</div>
+						<h4 class="tsd-parameters-title">Parameters</h4>
+						<ul class="tsd-parameters">
+							<li>
+								<h5>player: <span class="tsd-signature-type">number</span></h5>
+							</li>
+						</ul>
+						<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">any</span></h4>
+						<p>any</p>
+					</li>
+				</ul>
+			</section>
+			<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class">
+				<a name="getplayerchampionranks" class="tsd-anchor"></a>
+				<h3>get<wbr>Player<wbr>Champion<wbr>Ranks</h3>
+				<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class">
+					<li class="tsd-signature tsd-kind-icon">get<wbr>Player<wbr>Champion<wbr>Ranks<span class="tsd-signature-symbol">(</span>playerId<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">number</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">any</span></li>
+				</ul>
+				<ul class="tsd-descriptions">
+					<li class="tsd-description">
+						<aside class="tsd-sources">
+							<ul>
+								<li>Defined in <a href="https://github.com/PaladinsDev/paladins.js/blob/c2adb5f/src/API.ts#L153">API.ts:153</a></li>
+							</ul>
+						</aside>
+						<div class="tsd-comment tsd-typography">
+							<div class="lead">
+								<p>Get all the champion ranks for the requested player.</p>
+							</div>
+						</div>
+						<h4 class="tsd-parameters-title">Parameters</h4>
+						<ul class="tsd-parameters">
+							<li>
+								<h5>playerId: <span class="tsd-signature-type">number</span></h5>
+							</li>
+						</ul>
+						<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">any</span></h4>
+						<p>any</p>
+					</li>
+				</ul>
+			</section>
+			<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class">
+				<a name="getplayerfriends" class="tsd-anchor"></a>
+				<h3>get<wbr>Player<wbr>Friends</h3>
+				<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class">
+					<li class="tsd-signature tsd-kind-icon">get<wbr>Player<wbr>Friends<span class="tsd-signature-symbol">(</span>playerId<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">number</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">any</span></li>
+				</ul>
+				<ul class="tsd-descriptions">
+					<li class="tsd-description">
+						<aside class="tsd-sources">
+							<ul>
+								<li>Defined in <a href="https://github.com/PaladinsDev/paladins.js/blob/c2adb5f/src/API.ts#L143">API.ts:143</a></li>
+							</ul>
+						</aside>
+						<div class="tsd-comment tsd-typography">
+							<div class="lead">
+								<p>Get all the friends for the requested player.</p>
+							</div>
+						</div>
+						<h4 class="tsd-parameters-title">Parameters</h4>
+						<ul class="tsd-parameters">
+							<li>
+								<h5>playerId: <span class="tsd-signature-type">number</span></h5>
+							</li>
+						</ul>
+						<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">any</span></h4>
+						<p>any</p>
+					</li>
+				</ul>
+			</section>
+			<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class">
+				<a name="getplayeridbyname" class="tsd-anchor"></a>
+				<h3>get<wbr>Player<wbr>IdBy<wbr>Name</h3>
+				<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class">
+					<li class="tsd-signature tsd-kind-icon">get<wbr>Player<wbr>IdBy<wbr>Name<span class="tsd-signature-symbol">(</span>name<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">any</span></li>
+				</ul>
+				<ul class="tsd-descriptions">
+					<li class="tsd-description">
+						<aside class="tsd-sources">
+							<ul>
+								<li>Defined in <a href="https://github.com/PaladinsDev/paladins.js/blob/c2adb5f/src/API.ts#L101">API.ts:101</a></li>
+							</ul>
+						</aside>
+						<div class="tsd-comment tsd-typography">
+							<div class="lead">
+								<p>Get an array of players with the requested name.</p>
+							</div>
+						</div>
+						<h4 class="tsd-parameters-title">Parameters</h4>
+						<ul class="tsd-parameters">
+							<li>
+								<h5>name: <span class="tsd-signature-type">string</span></h5>
+							</li>
+						</ul>
+						<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">any</span></h4>
+						<p>any</p>
+					</li>
+				</ul>
+			</section>
+			<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class">
+				<a name="getplayeridbyportaluserid" class="tsd-anchor"></a>
+				<h3>get<wbr>Player<wbr>IdBy<wbr>Portal<wbr>User<wbr>Id</h3>
+				<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class">
+					<li class="tsd-signature tsd-kind-icon">get<wbr>Player<wbr>IdBy<wbr>Portal<wbr>User<wbr>Id<span class="tsd-signature-symbol">(</span>name<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span>, platform<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">number</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">any</span></li>
+				</ul>
+				<ul class="tsd-descriptions">
+					<li class="tsd-description">
+						<aside class="tsd-sources">
+							<ul>
+								<li>Defined in <a href="https://github.com/PaladinsDev/paladins.js/blob/c2adb5f/src/API.ts#L112">API.ts:112</a></li>
+							</ul>
+						</aside>
+						<div class="tsd-comment tsd-typography">
+							<div class="lead">
+								<p>Get a player from PC or PSN. Does not work with Xbox or Switch.</p>
+							</div>
+						</div>
+						<h4 class="tsd-parameters-title">Parameters</h4>
+						<ul class="tsd-parameters">
+							<li>
+								<h5>name: <span class="tsd-signature-type">string</span></h5>
+							</li>
+							<li>
+								<h5>platform: <span class="tsd-signature-type">number</span></h5>
+							</li>
+						</ul>
+						<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">any</span></h4>
+						<p>any</p>
+					</li>
+				</ul>
+			</section>
+			<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class">
+				<a name="getplayeridinfoforxboxandswitch" class="tsd-anchor"></a>
+				<h3>get<wbr>Player<wbr>IdInfo<wbr>For<wbr>Xbox<wbr>And<wbr>Switch</h3>
+				<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class">
+					<li class="tsd-signature tsd-kind-icon">get<wbr>Player<wbr>IdInfo<wbr>For<wbr>Xbox<wbr>And<wbr>Switch<span class="tsd-signature-symbol">(</span>name<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">any</span></li>
+				</ul>
+				<ul class="tsd-descriptions">
+					<li class="tsd-description">
+						<aside class="tsd-sources">
+							<ul>
+								<li>Defined in <a href="https://github.com/PaladinsDev/paladins.js/blob/c2adb5f/src/API.ts#L133">API.ts:133</a></li>
+							</ul>
+						</aside>
+						<div class="tsd-comment tsd-typography">
+							<div class="lead">
+								<p>Get player id info for Xbox and Switch.</p>
+							</div>
+						</div>
+						<h4 class="tsd-parameters-title">Parameters</h4>
+						<ul class="tsd-parameters">
+							<li>
+								<h5>name: <span class="tsd-signature-type">string</span></h5>
+							</li>
+						</ul>
+						<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">any</span></h4>
+						<p>any</p>
+					</li>
+				</ul>
+			</section>
+			<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class">
+				<a name="getplayeridsbygamertag" class="tsd-anchor"></a>
+				<h3>get<wbr>Player<wbr>Ids<wbr>ByGamertag</h3>
+				<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class">
+					<li class="tsd-signature tsd-kind-icon">get<wbr>Player<wbr>Ids<wbr>ByGamertag<span class="tsd-signature-symbol">(</span>name<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span>, platform<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">number</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">any</span></li>
+				</ul>
+				<ul class="tsd-descriptions">
+					<li class="tsd-description">
+						<aside class="tsd-sources">
+							<ul>
+								<li>Defined in <a href="https://github.com/PaladinsDev/paladins.js/blob/c2adb5f/src/API.ts#L123">API.ts:123</a></li>
+							</ul>
+						</aside>
+						<div class="tsd-comment tsd-typography">
+							<div class="lead">
+								<p>Get player ids by the gamertag.</p>
+							</div>
+						</div>
+						<h4 class="tsd-parameters-title">Parameters</h4>
+						<ul class="tsd-parameters">
+							<li>
+								<h5>name: <span class="tsd-signature-type">string</span></h5>
+							</li>
+							<li>
+								<h5>platform: <span class="tsd-signature-type">number</span></h5>
+							</li>
+						</ul>
+						<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">any</span></h4>
+						<p>any</p>
+					</li>
+				</ul>
+			</section>
+			<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class">
+				<a name="getplayerloadouts" class="tsd-anchor"></a>
+				<h3>get<wbr>Player<wbr>Loadouts</h3>
+				<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class">
+					<li class="tsd-signature tsd-kind-icon">get<wbr>Player<wbr>Loadouts<span class="tsd-signature-symbol">(</span>playerId<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">number</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">any</span></li>
+				</ul>
+				<ul class="tsd-descriptions">
+					<li class="tsd-description">
+						<aside class="tsd-sources">
+							<ul>
+								<li>Defined in <a href="https://github.com/PaladinsDev/paladins.js/blob/c2adb5f/src/API.ts#L163">API.ts:163</a></li>
+							</ul>
+						</aside>
+						<div class="tsd-comment tsd-typography">
+							<div class="lead">
+								<p>Get all the champion loadouts for the requested player.</p>
+							</div>
+						</div>
+						<h4 class="tsd-parameters-title">Parameters</h4>
+						<ul class="tsd-parameters">
+							<li>
+								<h5>playerId: <span class="tsd-signature-type">number</span></h5>
+							</li>
+						</ul>
+						<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">any</span></h4>
+						<p>any</p>
+					</li>
+				</ul>
+			</section>
+			<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class">
+				<a name="getplayermatchhistory" class="tsd-anchor"></a>
+				<h3>get<wbr>Player<wbr>Match<wbr>History</h3>
+				<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class">
+					<li class="tsd-signature tsd-kind-icon">get<wbr>Player<wbr>Match<wbr>History<span class="tsd-signature-symbol">(</span>playerId<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">number</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">any</span></li>
+				</ul>
+				<ul class="tsd-descriptions">
+					<li class="tsd-description">
+						<aside class="tsd-sources">
+							<ul>
+								<li>Defined in <a href="https://github.com/PaladinsDev/paladins.js/blob/c2adb5f/src/API.ts#L186">API.ts:186</a></li>
+							</ul>
+						</aside>
+						<div class="tsd-comment tsd-typography">
+							<div class="lead">
+								<p>Get the match history of the requested player.</p>
+							</div>
+						</div>
+						<h4 class="tsd-parameters-title">Parameters</h4>
+						<ul class="tsd-parameters">
+							<li>
+								<h5>playerId: <span class="tsd-signature-type">number</span></h5>
+							</li>
+						</ul>
+						<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">any</span></h4>
+						<p>any</p>
+					</li>
+				</ul>
+			</section>
+			<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class">
+				<a name="getplayerstatus" class="tsd-anchor"></a>
+				<h3>get<wbr>Player<wbr>Status</h3>
+				<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class">
+					<li class="tsd-signature tsd-kind-icon">get<wbr>Player<wbr>Status<span class="tsd-signature-symbol">(</span>playerId<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">number</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">any</span></li>
+				</ul>
+				<ul class="tsd-descriptions">
+					<li class="tsd-description">
+						<aside class="tsd-sources">
+							<ul>
+								<li>Defined in <a href="https://github.com/PaladinsDev/paladins.js/blob/c2adb5f/src/API.ts#L174">API.ts:174</a></li>
+							</ul>
+						</aside>
+						<div class="tsd-comment tsd-typography">
+							<div class="lead">
+								<p>Get the current status of the player.</p>
+							</div>
+						</div>
+						<h4 class="tsd-parameters-title">Parameters</h4>
+						<ul class="tsd-parameters">
+							<li>
+								<h5>playerId: <span class="tsd-signature-type">number</span></h5>
+							</li>
+						</ul>
+						<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">any</span></h4>
+						<p>any</p>
+					</li>
+				</ul>
+			</section>
+			<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class tsd-is-private">
+				<a name="getsession" class="tsd-anchor"></a>
+				<h3><span class="tsd-flag ts-flagPrivate">Private</span> get<wbr>Session</h3>
+				<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class tsd-is-private">
+					<li class="tsd-signature tsd-kind-icon">get<wbr>Session<span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span></li>
+				</ul>
+				<ul class="tsd-descriptions">
+					<li class="tsd-description">
+						<aside class="tsd-sources">
+							<ul>
+								<li>Defined in <a href="https://github.com/PaladinsDev/paladins.js/blob/c2adb5f/src/API.ts#L253">API.ts:253</a></li>
+							</ul>
+						</aside>
+						<div class="tsd-comment tsd-typography">
+							<div class="lead">
+								<p>Get the current session id, or set it if it&#39;s not set.</p>
+							</div>
+						</div>
+						<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">string</span></h4>
+						<p>string</p>
+					</li>
+				</ul>
+			</section>
+			<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class tsd-is-private">
+				<a name="getsignature" class="tsd-anchor"></a>
+				<h3><span class="tsd-flag ts-flagPrivate">Private</span> get<wbr>Signature</h3>
+				<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class tsd-is-private">
+					<li class="tsd-signature tsd-kind-icon">get<wbr>Signature<span class="tsd-signature-symbol">(</span>method<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span></li>
+				</ul>
+				<ul class="tsd-descriptions">
+					<li class="tsd-description">
+						<aside class="tsd-sources">
+							<ul>
+								<li>Defined in <a href="https://github.com/PaladinsDev/paladins.js/blob/c2adb5f/src/API.ts#L291">API.ts:291</a></li>
+							</ul>
+						</aside>
+						<div class="tsd-comment tsd-typography">
+							<div class="lead">
+								<p>Get the authorization signature for the API calls.</p>
+							</div>
+						</div>
+						<h4 class="tsd-parameters-title">Parameters</h4>
+						<ul class="tsd-parameters">
+							<li>
+								<h5>method: <span class="tsd-signature-type">string</span></h5>
+							</li>
+						</ul>
+						<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">string</span></h4>
+						<p>string</p>
+					</li>
+				</ul>
+			</section>
+			<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class tsd-is-private">
+				<a name="gettimestamp" class="tsd-anchor"></a>
+				<h3><span class="tsd-flag ts-flagPrivate">Private</span> get<wbr>Timestamp</h3>
+				<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class tsd-is-private">
+					<li class="tsd-signature tsd-kind-icon">get<wbr>Timestamp<span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span></li>
+				</ul>
+				<ul class="tsd-descriptions">
+					<li class="tsd-description">
+						<aside class="tsd-sources">
+							<ul>
+								<li>Defined in <a href="https://github.com/PaladinsDev/paladins.js/blob/c2adb5f/src/API.ts#L280">API.ts:280</a></li>
+							</ul>
+						</aside>
+						<div class="tsd-comment tsd-typography">
+							<div class="lead">
+								<p>Get the current timestamp in a simple format for API calls.</p>
+							</div>
+						</div>
+						<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">string</span></h4>
+						<p>string</p>
+					</li>
+				</ul>
+			</section>
+			<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class">
+				<a name="gettopmatches" class="tsd-anchor"></a>
+				<h3>get<wbr>Top<wbr>Matches</h3>
+				<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class">
+					<li class="tsd-signature tsd-kind-icon">get<wbr>Top<wbr>Matches<span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">any</span></li>
+				</ul>
+				<ul class="tsd-descriptions">
+					<li class="tsd-description">
+						<aside class="tsd-sources">
+							<ul>
+								<li>Defined in <a href="https://github.com/PaladinsDev/paladins.js/blob/c2adb5f/src/API.ts#L39">API.ts:39</a></li>
+							</ul>
+						</aside>
+						<div class="tsd-comment tsd-typography">
+							<div class="lead">
+								<p>Get the top 50 most watched/recent matches.</p>
+							</div>
+						</div>
+						<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">any</span></h4>
+						<p>any</p>
+					</li>
+				</ul>
+			</section>
+			<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class tsd-is-private">
+				<a name="makerequest" class="tsd-anchor"></a>
+				<h3><span class="tsd-flag ts-flagPrivate">Private</span> make<wbr>Request</h3>
+				<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class tsd-is-private">
+					<li class="tsd-signature tsd-kind-icon">make<wbr>Request<span class="tsd-signature-symbol">(</span>url<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">any</span></li>
+				</ul>
+				<ul class="tsd-descriptions">
+					<li class="tsd-description">
+						<aside class="tsd-sources">
+							<ul>
+								<li>Defined in <a href="https://github.com/PaladinsDev/paladins.js/blob/c2adb5f/src/API.ts#L357">API.ts:357</a></li>
+							</ul>
+						</aside>
+						<div class="tsd-comment tsd-typography">
+							<div class="lead">
+								<p>Makes the request to the API and error checks it as well.</p>
+							</div>
+						</div>
+						<h4 class="tsd-parameters-title">Parameters</h4>
+						<ul class="tsd-parameters">
+							<li>
+								<h5>url: <span class="tsd-signature-type">string</span></h5>
+							</li>
+						</ul>
+						<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">any</span></h4>
+						<p>any</p>
+					</li>
+				</ul>
+			</section>
+			<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class tsd-is-static">
+				<a name="getinstance" class="tsd-anchor"></a>
+				<h3><span class="tsd-flag ts-flagStatic">Static</span> get<wbr>Instance</h3>
+				<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class tsd-is-static">
+					<li class="tsd-signature tsd-kind-icon">get<wbr>Instance<span class="tsd-signature-symbol">(</span>devId<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span>, authKey<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span>, cache<span class="tsd-signature-symbol">?: </span><span class="tsd-signature-type">Cache</span>, languageId<span class="tsd-signature-symbol">?: </span><span class="tsd-signature-type">undefined</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">number</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><a href="_api_.api.html" class="tsd-signature-type">API</a></li>
+				</ul>
+				<ul class="tsd-descriptions">
+					<li class="tsd-description">
+						<aside class="tsd-sources">
+							<ul>
+								<li>Defined in <a href="https://github.com/PaladinsDev/paladins.js/blob/c2adb5f/src/API.ts#L26">API.ts:26</a></li>
+							</ul>
+						</aside>
+						<h4 class="tsd-parameters-title">Parameters</h4>
+						<ul class="tsd-parameters">
+							<li>
+								<h5>devId: <span class="tsd-signature-type">string</span></h5>
+							</li>
+							<li>
+								<h5>authKey: <span class="tsd-signature-type">string</span></h5>
+							</li>
+							<li>
+								<h5><span class="tsd-flag ts-flagOptional">Optional</span> cache: <span class="tsd-signature-type">Cache</span></h5>
+							</li>
+							<li>
+								<h5><span class="tsd-flag ts-flagOptional">Optional</span> languageId: <span class="tsd-signature-type">undefined</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">number</span></h5>
+							</li>
+						</ul>
+						<h4 class="tsd-returns-title">Returns <a href="_api_.api.html" class="tsd-signature-type">API</a></h4>
+					</li>
+				</ul>
 			</section>
 		</section>
 		<footer class="with-border-bottom">
