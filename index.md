@@ -52,7 +52,7 @@ When you see a package by other developers either forked over to or created as P
 This process is still being worked out; but pretty much...once we talk about the source code, maintaining it, code coverage, etc. the we'll either create a repository for you to push your source code (preferred) or we'll fork it and give you write access to the repository (this method preferred if you have a commit history you'd like to maintain).
 
 ### How do I submit my package/tool/resource? 
-Just send an email to submit@paladinsdev.com and someone will get back to you as soon as possible.
+Just open an issue [here]()
 
 # Issues / Security
 If you have an issue or a bug, please open an issue on the corresponding repository. If you've found a vulnerability or other security issue please email security@halfpetal.com immediately.
